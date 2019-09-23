@@ -1,0 +1,709 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+body {
+	background: white  !important;
+
+}
+
+
+.table-custom {
+	color: gray;
+}
+
+.table-custom a {
+	color: gray;
+	text-decoration: none;
+}
+
+.table-custom a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.table-margin {
+	padding-top: 15px;
+}
+.table-a {
+	width: 190px;
+}
+
+.table-b {
+	width: 260px;
+}
+.table-c {
+	width: 140px;
+}
+
+
+
+.bg-nav {
+	margin-top: -1150px;
+	width: 100%;
+	height: 1200px;
+	/*background-color: rgb(233,201,189);*/
+	background-image: url(image/taylorswift.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	z-index: 0;
+
+
+
+}
+
+#warning {
+	margin-top: 600px;
+	margin-bottom:0;
+	font-size: 10px;
+	color:gray;
+	text-align: center;
+}
+
+.nav-menu {
+	margin-right: 20px;
+	text-decoration: none;
+	color: gray;
+}
+
+.nav-menu:hover {
+	text-decoration: none;
+	color: black;
+}
+
+
+.nav-menu-a {
+	margin-left: 20px;
+
+	color: gray;
+}
+
+.nav-menu-a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+
+.table-custom td {
+	margin-right: 50px;
+}
+
+
+.table-custom tr>th {
+	margin-right: 50px;
+}
+
+/*nav-bar*/
+@media (max-width: 990px) {
+  .navbar-pc {
+  	display: none;
+  }
+
+
+}
+
+@media (min-width: 992px) {
+  .navbar-pc {
+  	
+  }
+  .navbar-toggle {
+  	float: left;
+  }
+
+}
+
+/*navbar-mobile*/
+
+@media (max-width: 990px) {
+  .navbar-mobile {
+  	
+  }
+
+
+}
+
+@media (min-width: 992px) {
+
+  .navbar-mobile {
+  	display: none;
+  }
+
+}
+
+
+
+.container-wide {
+  width: 100%; /* extra small */
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+/* small */
+@media (min-width: 576px) {
+  .container-wide {
+  }
+
+
+
+}
+
+/* medium */
+@media (min-width: 768px) {
+  .container-wide {
+
+  }
+}
+
+/* large */
+@media (min-width: 992px) {
+
+
+  .container-wide {
+  	padding-right: 250px;
+ 	padding-left: 250px;
+  }
+}
+
+/* extra large */
+@media (min-width: 1200px) {
+  .container-wide {
+  }
+
+}
+
+/*-------------------searchbar--------------------*/
+
+.search-bar-custom {
+	border-radius: 50px !important;
+}
+
+
+.taylorswift-youtube a {
+	border: 1px solid rgba(255,255,255,0); 
+	margin-top: 10px; 
+	margin-left: 10px; 
+	background-color: #a6a6a6; 
+	border-radius: 50px; 
+	padding: 1px 7px; 
+	color: white !important; 
+	font-size: 8px;
+}
+
+.taylorswift-youtube a:hover {
+	text-decoration: none;
+	color: white;
+	background-color: #c70f0f;
+}
+
+
+.navbar-toggler-icon {
+	border-radius: 50px !important;
+}
+
+
+
+
+.toggle-color {
+  font-weight: bold;
+  background: linear-gradient(to right, #f2c59d, #a6cce1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+
+/*토글러 선택할 때 '블루 아웃라인'을 없애주는 코드 */
+  .navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gallery-container {
+	width: 930px;
+	margin: 0 auto;
+}
+
+
+.gallery {
+	box-sizing: border-box;
+	padding: 0;
+	display: inline-block;
+
+}
+
+.gallery-a {
+
+	width: 300px;
+	height: 500px;
+	background-image: url("image/ae.jpg");
+	background-size: cover;
+	border: 0px !important;
+	
+}
+
+
+.gallery-g {
+
+	width: 300px;
+	height: 500px;
+	background-image: url("image/g.jpg");
+	background-size: cover;
+	background-position: center center;
+	border: 0px !important;
+	
+}
+
+.gallery-h {
+
+	width: 300px;
+	height: 500px;
+	background-image: url("image/h.jpg");
+	background-position: center center;
+	background-size: cover;
+	border: 0px !important;
+	
+}
+
+
+.gallery-b {
+	width: 200px;
+	height: 400px;
+	background-image: url("image/b.jpg");
+	background-size: cover;
+	border: 0px !important;
+	
+	
+}
+
+
+.gallery-c {	
+	width: 300px;
+	height: 200px;
+	background-image: url("image/c.jpg");
+	background-size: cover;
+	background-position: center center;
+	border: 0px !important;
+	
+	
+	
+}
+
+
+.gallery-e {
+	width: 200px;
+	height: 400px;
+	background-image: url("image/e.jpg");
+	background-position: center center;
+	background-size: cover;
+	border: 0px !important;
+	
+	
+}
+
+
+.gallery-f {	
+	width: 300px;
+	height: 200px;
+	background-image: url("image/f.jpg");
+	background-size: cover;
+	border: 0px !important;
+	
+	
+	
+}
+
+.gallery-d {
+	width: 300px;
+	height: 200px;
+	background-image: url("image/d.jpg");
+	background-size: cover;
+	border: 0px !important;
+	
+	
+}
+
+
+
+
+.gallery-i {
+	width: 200px;
+	height: 400px;
+	background-image: url("image/i.jpg");
+	background-size: cover;
+	border: 0px !important;
+	
+	
+}
+
+
+.gallery-j {
+	width: 300px;
+	height: 200px;
+	background-image: url("image/j.jpg");
+	background-size: cover;
+	border: 0px !important;
+	
+	
+}
+
+
+
+
+
+
+/*----------title--------------*/
+
+.title {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 60px;
+}
+
+.main-title {
+  font-weight: bold;
+  background: linear-gradient(to right, #f2c59d, #a6cce1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.sub-title {
+	font-weight: 300 !important;
+	color: #a6a6a6;
+}
+
+
+
+
+.bg-container {
+  background: linear-gradient(to right, #f2c59d, #a6cce1);
+  -webkit-background-clip: transparent;
+  -webkit-text-fill-color: text;
+}
+
+
+
+.main-title-a {
+  font-weight: bold;
+  color:white;
+
+}
+
+.sub-title-a {
+	font-weight: 300 !important;
+	color: white;
+}
+
+
+
+.main-title-b {
+  font-weight: bold;
+  background: linear-gradient(to right, #efa6c5, #5eabcd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+}
+
+.sub-title-b {
+	font-weight: 300 !important;
+	color: white;
+}
+
+
+.bridge-1 {
+	padding-top: 53%;
+	text-align: center;
+	z-index: 99999;
+}
+
+
+
+.bridge {
+	padding-right: 25%;
+	padding-top: 8%;
+	text-align: right;
+	z-index: 99999;
+}
+
+.bridge-title {
+	font-size: 35px;
+	line-height: 40px;
+  background: linear-gradient(to right, #f2c59d, #a6cce1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bridge-sub {
+	font-size: 15px;
+	color: #a6a6a6;
+}
+
+
+
+
+
+
+.card-1 {
+	width: 540px;
+	height: 500px;
+	background-image: url(image/stadium-1.jpg);
+	background-size: cover;
+	background-position: center center;
+	border-radius: 5px 5px 0 5px;
+}
+
+
+.card-2 {
+	width: 540px;
+	height: 500px;
+	background-image: url(image/stadium-2.jpg);
+	background-size: cover;
+	background-position: center center;
+	border-radius: 5px 5px 5px 0;
+}
+
+
+.card-3 {
+	width: 540px;
+	height: 500px;
+	background-image: url(image/stadium-3.jpg);
+	background-size: cover;
+	background-position: center center;
+	border-radius: 5px 5px 0 5px;
+}
+
+
+.card-text {
+	width:540px;
+	height: 500px;
+	line-height: 580px;
+
+}
+
+
+.helper {
+	display: inline-block;
+	line-height: normal;
+
+}
+
+
+.card-title {
+	font-size: 25px;
+
+	line-height: normal;
+
+}
+
+
+.card-content {
+
+	line-height: normal;
+	font-size: 15px;
+	color: #484848;
+}
+
+
+
+
+
+
+
+/* shop */
+
+.shop {
+	width: 1140px;
+	height: 780px;
+	background-color: white;
+	border-radius: 5px;
+	overflow: hidden;
+	
+
+	
+}
+
+.shop-1 {
+	width: 745px;
+	height: 730px;
+
+	background-color: #e5e2d6;
+	display: inline-block;
+}
+
+
+.shop-2 {
+	width: 390px;
+	height: 730px;
+	background-color: white;
+
+	display: inline-block;
+	border-radius: 5px 0 0 5px;
+
+
+}
+
+.info {
+	display: inline-block;
+	width: 390px;
+	margin-left: 50px;
+}
+
+
+
+.info h3 {
+	margin-top: 70px;
+
+  background: linear-gradient(to right, #efa6c5, #5eabcd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.info h6 {
+	margin-top: 50px;
+	text-align: justify;
+	line-height: 22px;
+	color: #2d2d2d;
+}
+
+.info .main-ul {
+	margin-top: 30px;
+	list-style: none;
+	margin-left: -40px;
+}
+
+
+.info p {
+	margin-top: 40px;
+	border-radius: 40px;
+	width: 340px;
+	font-size: 25px;
+	padding: 10px;
+	text-align: left;
+	padding-left: 40px;
+	color: white;
+
+  background: linear-gradient(to right, #efa6c5, #5eabcd);
+  -webkit-background-clip: transparent;
+  -webkit-text-fill-color: text;
+}
+
+.info p:hover
+
+
+
+.btn-custom:hover {
+	background-color: #efa6c5 !important;
+}
+
+
+.line-break {font-size: 13px; margin-top: -38px; color:white; margin-left: 150px}
+
+
+.shop-image {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+
+
+
+
+/*토글러 선택할 때 '블루 아웃라인'을 없애주는 코드 */
+  .btn.btn-primary:focus, .btn.btn-primary:active {
+    outline: none;
+    box-shadow: none;
+  }
+
+
+.input-master {
+	margin-left: 50px;
+}
+
+
+.input-title {
+	width: 100px;
+	padding: 10px 0 10px 0;
+	text-align: center;
+	background-color: transparent;
+	border-bottom: 1px solid white;
+	color: white;
+	font-weight: 500;
+	border-radius: 10px 10px 0 10px;
+	float: left;
+}
+
+.lover {
+	border: 0px;
+	padding: 10px 0 10px 0;
+	background-color: transparent;
+	border-bottom: 1px solid white;
+	color: #4a5056;
+}
+
+  .lover:focus, .lover:active {
+    outline: none;
+    box-shadow: none;
+  }
+
+
+
+.modal-text h3 {
+	color: white !important;
+}
+
+
+
+
+.margin-finish {
+	margin-top: 180px;
+}
+
+
+
+
+/* 판매현황 */
+
+.wide {
+	margin-top: -80px;
+}
+
+
+.orders, .wide {
+	background-color: #ebebeb;
+}
+
+.orders {
+	text-align: center;
+}
+
+
+
+.main-title-c {
+  font-weight: bold;
+  background: linear-gradient(to right, #efa6c5, #5eabcd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+
